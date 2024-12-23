@@ -17,7 +17,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/cliente", produces = {"application/json"})
-@Tag(name = "OS-Manager")
+@Tag(name = "Cliente")
 public class ClienteController {
 
     @Autowired

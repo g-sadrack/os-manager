@@ -22,7 +22,7 @@ public class Veiculo {
     private String motor;
     private String placa;
     @ManyToOne
-    @JoinColumn(name = "cliente_id", unique = true)
+    @JoinColumn(name = "cliente_id")
     private Cliente cliente;
     @CreationTimestamp
     private LocalDateTime dataCadastro;

@@ -11,10 +11,9 @@ import lombok.Setter;
 @NoArgsConstructor
 public class VeiculoDTO {
 
+    private String placa;
     private String marca;
     private String modelo;
     private String motor;
-    private String placa;
-    private ClienteDTO cliente;
 
 }
